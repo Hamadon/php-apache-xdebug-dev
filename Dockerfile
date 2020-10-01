@@ -28,6 +28,7 @@ RUN apt-get update && \
 		php7.2-bcmath \
 		php7.2-zip \
 		curl \
+		nodejs \
     && apt-get autoremove -y \
     && apt-get clean all && \
     echo "ServerName php72.dev.localhost" >> /etc/apache2/apache2.conf
