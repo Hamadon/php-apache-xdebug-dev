@@ -27,6 +27,7 @@ RUN apt-get update && \
 		php7.2-xml \
 		php7.2-bcmath \
 		php7.2-zip \
+		php7.2-apcu \
 		curl \
 		nodejs \
     && apt-get autoremove -y \
